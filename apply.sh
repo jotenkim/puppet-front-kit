@@ -11,6 +11,6 @@ apm install minimap
 apm install pigments
 apm install merge-conflicts
 apm install merge-conflicts
-sudo puppet apply -e --modulepath puppet/modules/ 'class{setting-module:}'
+sudo puppet apply -e --modulepath puppet/modules/ 'class {setting-module:}'
 git clone https://github.com/jotenkim/BobTheRobot.git
 
