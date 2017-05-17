@@ -1,8 +1,6 @@
 class atom-puppet {
                         Exec {
                                 path => '/usr/bin/:/sbin:/bin',
-                                logoutput => on_failure,
-                                timeout => 0,
                         }
 
                         exec {'wget':
