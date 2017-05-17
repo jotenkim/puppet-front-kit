@@ -57,8 +57,15 @@ class atom-puppet {
                                 command => 'apm install merge-conflicts',
                         }
 
+			package {'chromium-browser':
+				ensure => 'installed',
+			}
+		
+			package {'gimp':
+				ensure => 'installed',
+			}
 
-
+			
 
 
 }

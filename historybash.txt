@@ -1,0 +1,364 @@
+    1  puppet --help
+    2  ls
+    3  sudo puppet apply -e 'class {atom-puppet:}'
+    4  ls
+    5  cd atom-puppet/
+    6  sudo puppet apply -e 'class {atom-puppet:}'
+    7  ls
+    8  cd manifests/
+    9  ls
+   10  cat init.pp 
+   11  sudo apt-get install puppet
+   12  sudo apt-get update
+   13  sudo puppet apply -e 'class {atom-puppet:}'
+   14  tree
+   15  cd ..
+   16  tree
+   17  sudo puppet apply -e 'class {atom-puppet:}'
+   18  cd ..
+   19  ls
+   20  cd atom-puppet/
+   21  sudo puppet apply --modulepath  -e 'class {atom-puppet:}'
+   22  cd ..
+   23  ls
+   24  tree
+   25  cd atom-puppet/
+   26  ls
+   27  sudo puppet apply --modulepath atom-puppet/  -e 'class {atom-puppet:}'
+   28  sudo puppet apply --modulepath atom-puppet/  -e 'class{atom-puppet:}'
+   29  sudo puppet apply -e 'class{atom-puppet:}'
+   30  sudo puppet apply -e 'class {atom-puppet:}'
+   31  cd ..
+   32  ls
+   33  mkdir puppet
+   34  cd puppet/
+   35  mkdir modules
+   36  ls
+   37  cd ..
+   38  ls
+   39  sudo cp atom-puppet/ puppet/modules/
+   40  sudo cp -r atom-puppet/ puppet/modules/
+   41  ls
+   42  tree
+   43  history
+   44  sudo puppet apply --modulepath puppet/modules/  -e 'class{atom-puppet:}'
+   45  atom
+   46  ls
+   47  cd atom-puppet/
+   48  ls
+   49  rm -rf manifests/
+   50  ls
+   51  git pull
+   52  git add .
+   53  git commit
+   54  git config --global user.email wertyy@gmail.com
+   55  git config --global user.name Kim Freeman
+   56  cd ..
+   57  ls
+   58  cp -rf puppet/ atom-puppet/
+   59  cd atom-puppet/
+   60  ls
+   61  git pull
+   62  git add .
+   63  git commit 
+   64  sudo push
+   65  git push
+   66  ls
+   67  cd puppet/
+   68  ls
+   69  cd modules/
+   70  ls
+   71  cd atom-puppet/
+   72  ls
+   73  cd ..
+   74  ls
+   75  tree
+   76  cd ..
+   77  ls
+   78  cd ..
+   79  ls
+   80  cd ..
+   81  tree
+   82  ls
+   83  rm puppet/
+   84  rm .rf puppet/
+   85  rm -rf puppet/
+   86  ls
+   87  git clone https://github.com/jotenkim/atom-puppet.git
+   88  sudo rm -rf puppet/
+   89  ls
+   90  rm deb 
+   91  ls
+   92  cd atom-puppet/
+   93  tree
+   94  ls
+   95  cd puppet/
+   96  ls
+   97  cd modules/atom-puppet/
+   98  ls
+   99  rm LICENSE README.md 
+  100  ls
+  101  cd ..
+  102  git pull
+  103  git add .
+  104  git commit
+  105  git add .
+  106  git commit
+  107  tree
+  108  sudoedit puppet/modules/atom-puppet/manifests/init.pp 
+  109  cd puppet/modules/atom-puppet/manifests/ 
+  110  ls
+  111  sudoedit init.pp 
+  112  cd ..
+  113  cd
+  114  ls
+  115  rm -rf atom-puppet/
+  116  ls
+  117  history
+  118  ls
+  119  cd atom-puppet/
+  120  tree
+  121  cd puppet/modules/atom-puppet/
+  122  mkdir manifests
+  123  tree
+  124  mkdir templates
+  125  tree
+  126  cd manifests/
+  127  nano init.pp
+  128  ls
+  129  cat init.pp 
+  130  cd
+  131  ls
+  132  cd atom-puppet/
+  133  git pull
+  134  git add .
+  135  git status
+  136  git commit
+  137  tree
+  138  apm install atom-beautify
+  139  sudoedit puppet/modules/atom-puppet/manifests/init.pp 
+  140  git status
+  141  cd
+  142  ls
+  143  cd atom-puppet/
+  144  ls
+  145  cp puppet/ /home/xubuntu/
+  146  cp -rf puppet/ /home/xubuntu/
+  147  ls
+  148  cd
+  149  ls
+  150  tree
+  151  ls
+  152  cd puppet/
+  153  ls
+  154  tree
+  155  sudoedit modules/atom-puppet/manifests/init.pp 
+  156  cd
+  157  ls
+  158  mkdir puppet
+  159  cd /etc/puppet/modules/
+  160  ls
+  161  mkdir atom-puppet
+  162  sudo mkdir atom-puppet
+  163  ls
+  164  tree
+  165  cd atom-puppet/
+  166  mkdir manifests templates
+  167  sudo mkdir manifests templates
+  168  ls
+  169  cd manifests/
+  170  pwd
+  171  nano init.pp
+  172  sudoedit init.pp
+  173  sudo puppet apply -e 'class {atom-puppet:}'
+  174  sudoedit init.pp
+  175  sudo puppet apply -e 'class {atom-puppet:}'
+  176  sudoedit init.pp
+  177  sudo puppet apply -e 'class {atom-puppet:}'
+  178  sudoedit init.pp
+  179  sudo puppet apply -e 'class {atom-puppet:}'
+  180  sudoedit init.pp
+  181  sudo puppet apply -e 'class {atom-puppet:}'
+  182  sudoedit init.pp
+  183  sudo puppet apply -e 'class {atom-puppet:}'
+  184  sudo apt-get update
+  185  ls
+  186  rm deb
+  187  ls
+  188  sudo rm deb
+  189  ls
+  190  cd ..
+  191  tree
+  192  cd ..
+  193  tree
+  194  cd puppet/
+  195  tree
+  196  sudo cp -r modules/ /home/xubuntu/puppet/
+  197  cd
+  198  ls
+  199  sudo rm -rf atom-puppet/
+  200  cd puppet/
+  201  tree
+  202  whereis atom
+  203  apm install linter
+  204  ls
+  205  cd ..
+  206  ls
+  207  git clone https://github.com/jotenkim/puppet-front-kit.git
+  208  ls
+  209  cp -r puppet puppet-front-kit/ 
+  210  ls
+  211  cd puppet-front-kit/
+  212  tree
+  213  git pull
+  214  git status
+  215  git add .
+  216  git status
+  217  git commit
+  218  git push
+  219  ls
+  220  tree
+  221  history
+  222  apm install minimap
+  223  ls
+  224  cd puppet/
+  225  ls
+  226  cd modules/
+  227  ls
+  228  tree
+  229  mkdir setting-module
+  230  ls
+  231  cd setting-module/
+  232  ls
+  233  mkdir templates
+  234  ls
+  235  cd ..
+  236  tree
+  237  cd ..
+  238  tree
+  239  cd ..
+  240  tree
+  241  cd puppet-front-kit/
+  242  tree
+  243  ls
+  244  nano start.sh
+  245  ls
+  246  tree
+  247  mkdir manifests puppet/modules/setting-module/
+  248  sudo mkdir manifests puppet/modules/setting-module/
+  249  cd puppet/modules/setting-module/
+  250  ls
+  251  mkdir manifests
+  252  ls
+  253  cd manifests/
+  254  sudoedit init.pp
+  255  nano init.pp
+  256  ls
+  257  nano init.pp 
+  258  ls
+  259  cd
+  260  ls
+  261  cd puppet-front-kit/
+  262  ls
+  263  nano apply.sh
+  264  ls
+  265  history
+  266  ls
+  267  nano start.sh 
+  268  nano apply.sh
+  269  nano start.sh 
+  270  ls
+  271  bash start.sh 
+  272  ls
+  273  nano start.sh 
+  274  bash start.sh 
+  275  ls
+  276  sudo apt-get update
+  277  tree
+  278  cd /home/usr/
+  279  cd /usr/
+  280  ls
+  281  ls -a
+  282  tree
+  283  tree |grep config
+  284  tree |grep config.cson
+  285  tree |grep atom
+  286  /home/$usr
+  287  cd
+  288  /home/$usr
+  289  /home/$user
+  290  /home/
+  291  cd home
+  292  cd /home/$usr
+  293  ls
+  294  cd /home/$usr/
+  295  ls
+  296  cd /home/$
+  297  cd
+  298  cd /home/~ũsername
+  299  cd /home/~username
+  300  cd /home/$username
+  301  ls
+  302  echo
+  303  cd
+  304  echo
+  305  l
+  306  ls
+  307  cd puppet-front-kit/
+  308  git status
+  309  git pull
+  310  git add .
+  311  git commit
+  312  git push
+  313  ls
+  314  tree
+  315  ls
+  316  tree
+  317  rm -r puppet-front-kit/
+  318  sudo rm -r puppet-front-kit/
+  319  ls
+  320  tree
+  321  tree -a
+  322  tree
+  323  ls
+  324  cd manifests/
+  325  ls
+  326  cd ..
+  327  rm manifests/
+  328  sudo rm manifests/
+  329  ls
+  330  sudo rm -r manifests/
+  331  ls
+  332  tree
+  333  cd puppet/modules/setting-module/
+  334  ls
+  335  cd templates/
+  336  cd
+  337  ls
+  338  cd /puppet-front-kit/puppet/modules/setting-module/templates
+  339  cd puppet-front-kit/puppet/modules/setting-module/templates
+  340  ls
+  341  mv config.cson config.cson.erb
+  342  ls
+  343  cat config.cson.erb 
+  344  cd ..
+  345  ls
+  346  cd manifests/
+  347  ls
+  348  nano init.pp 
+  349  tree
+  350  cd ..
+  351  tree
+  352  cd ..
+  353  tree
+  354  cd ..
+  355  tree
+  356  sudoedit modules/atom-puppet/manifests/init.pp 
+  357  nano modules/atom-puppet/manifests/init.pp 
+  358  ls
+  359  cd ..
+  360  ls
+  361  nano apply.sh 
+  362  tree
+  363  ls
+  364  history > historybash.txt
