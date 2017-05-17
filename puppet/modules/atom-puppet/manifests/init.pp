@@ -57,10 +57,12 @@ class atom-puppet {
 
 			package {'chromium-browser':
 				ensure => 'installed',
+				allowcdrom => 'true',
 			}
 		
 			package {'gimp':
 				ensure => 'installed',
+				allowcdrom => 'true',
 			}
 
 			
